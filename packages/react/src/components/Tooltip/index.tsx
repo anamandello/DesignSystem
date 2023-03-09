@@ -1,29 +1,29 @@
 import { ComponentProps } from 'react'
 import {
   TooltipArrow,
-  TooltipContainer,
+  TooltipRoot,
   TooltipContent,
   TooltipPortal,
   TooltipProvider,
   TooltipTrigger,
 } from './styles'
 
-export interface TooltipProps extends ComponentProps<typeof TooltipContent> {
-  children: string
+export interface TooltipProps extends ComponentProps<typeof TooltipRoot> {
+  content: string
 }
 
 export function Tooltip(props: TooltipProps) {
   return (
     <TooltipProvider>
-      <TooltipContainer>
-        <TooltipTrigger />
+      <TooltipRoot>
+        <TooltipTrigger asChild>{props.children}</TooltipTrigger>
         <TooltipPortal>
           <TooltipContent>
-            {props.children}
+            {props.content}
             <TooltipArrow />
           </TooltipContent>
         </TooltipPortal>
-      </TooltipContainer>
+      </TooltipRoot>
     </TooltipProvider>
   )
 }
