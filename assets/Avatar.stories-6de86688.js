@@ -1,0 +1,2 @@
+import{A as t}from"./index-873b0126.js";import"./index-273b62e1.js";import"./iframe-eb9842ab.js";import"./index-cd690b93.js";import"./jsx-runtime-a6f7b6e5.js";const p={title:"Data display/Avatar",component:t,args:{src:"https://github.com/anamandello.png",alt:"Ana Flávia"},argTypes:{src:{control:{type:"text"}}}},c={},l={args:{src:void 0}},m=["Primary","WithFallback"];export{c as Primary,l as WithFallback,m as __namedExportsOrder,p as default};
+//# sourceMappingURL=Avatar.stories-6de86688.js.map

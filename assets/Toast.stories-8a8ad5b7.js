@@ -1,0 +1,2 @@
+import{j as t,F as o}from"./jsx-runtime-a6f7b6e5.js";import{d as a}from"./index-873b0126.js";import"./index-273b62e1.js";import"./iframe-eb9842ab.js";import"./index-cd690b93.js";const d={title:"Form/Toast",component:a,args:{title:"Agendamento realizado",description:"Quarta-feira, 23 de Outubro às 16h",open:!0},decorators:[r=>t(o,{children:r()})]},p={},c=["Primary"];export{p as Primary,c as __namedExportsOrder,d as default};
+//# sourceMappingURL=Toast.stories-8a8ad5b7.js.map

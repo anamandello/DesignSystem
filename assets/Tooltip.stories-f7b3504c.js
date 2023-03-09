@@ -1,0 +1,2 @@
+import{j as o}from"./jsx-runtime-a6f7b6e5.js";import{e as r}from"./index-873b0126.js";import"./index-273b62e1.js";import"./iframe-eb9842ab.js";import"./index-cd690b93.js";const p={title:"Form/Tooltip",component:r,args:{content:"21 de Outubro - Indisponível",children:o("span",{children:"Tooltip"})},argTypes:{children:{control:{type:null}}}},l={},m={args:{children:o("strong",{children:o("p",{children:"Strong with p"})})}},a=["Primary","CustomTag"];export{m as CustomTag,l as Primary,a as __namedExportsOrder,p as default};
+//# sourceMappingURL=Tooltip.stories-f7b3504c.js.map
